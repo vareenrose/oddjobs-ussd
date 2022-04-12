@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": "^8.0",
+        "africastalking/africastalking": "^3.0",
+        "altorouter/altorouter": "^2.0"
+    }
+}
