@@ -29,9 +29,9 @@
             $response .= "7. Furniture Assembly\n";
             $response .= "8. Repairs\n";
             $response .= "9. Errands\n";
-            $response .= Util::$GO_TO_MAIN_MENU .  " Go back to main menu\n";
+            $response .= Util::$GO_TO_MAIN_MENU .  ". Go back to main menu\n";
             echo $response;
-
+// fix this
             do {
                 $textarray = explode('*', $text);
 
@@ -49,10 +49,10 @@
           //building menu for user registration
         //   change to sms?
            $response = "CON To join our network of service providers, kindly fill the form at the url below and one of our customer service representatives will contact you to complete your registration\n";
-           $response .= "<formurl> \n";
+           $response .= "https://fakeformurl.com \n";
            $response .= "If you're not contacted within 48 hours, call the number below \n";
            $response .= "0712345678 \n";
-           $response .= Util::$GO_TO_MAIN_MENU .  " Go back to main menu\n";
+           $response .= Util::$GO_TO_MAIN_MENU .  ". Go back to main menu\n";
 
            echo $response;
         }
@@ -62,9 +62,9 @@
              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi \n
              ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in \n
-             voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
+             voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n";
 
-            $response .= Util::$GO_TO_MAIN_MENU .  " Go back to main menu\n";
+            $response .= Util::$GO_TO_MAIN_MENU .  ". Go back to main menu\n";
 
             echo $response;
         }

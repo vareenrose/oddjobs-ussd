@@ -32,6 +32,10 @@
             default:
                 echo "END Invalid choice\n";
         }
+// fix this
+        if ($textArray[1]) {
+            # code...
+        }
     }
 
     header('Content-type: text/plain');
